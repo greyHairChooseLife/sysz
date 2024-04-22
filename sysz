@@ -25,7 +25,7 @@ EOF
 }
 
 _sysz_help() {
-  cat >&2 <<EOF
+  cat <<EOF # https://github.com/joehillen/sysz/pull/29#issue-2044616077
 A utility for using systemctl interactively via fzf.
 
 Usage: $PROG [OPTS...] [CMD] [-- ARGS...]
